@@ -1,0 +1,17 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://assets/prefabs/cell/cell.tscn" type="PackedScene" id=1]
+
+[node name="Node" type="Node"]
+
+[node name="CellNode" parent="." instance=ExtResource( 1 )]
+position = Vector2( 136, 38 )
+CreateModel = true
+
+[node name="CellNode2" parent="." instance=ExtResource( 1 )]
+position = Vector2( 194, 60 )
+CreateModel = true
+
+[node name="CellNode3" parent="." instance=ExtResource( 1 )]
+position = Vector2( 308, 72 )
+CreateModel = true

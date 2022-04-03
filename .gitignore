@@ -7,3 +7,11 @@ export_presets.cfg
 # Mono-specific ignores
 .mono/
 data_*/
+
+#VSCode-specific ignores
+.vscode/
+
+#VS-specific ignores
+.vs/
+NumbersMergeGame.csproj
+NumbersMergeGame.sln
